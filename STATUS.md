@@ -60,10 +60,30 @@
 
 ---
 
+## Settlement Obligation Summary
+
+**Per asset allocation spreadsheet (Dec 17, 2024 settlement):**
+
+| Line Item | Amount | Status |
+|-----------|--------|--------|
+| Equalizing payment (half of $960K asset difference) | $480,000 | Pending — part of final calculation |
+| Watts charges | $87,000 | Pending — part of final calculation |
+| Cheryl's 2640 claim | $97,000 | Pending — part of final calculation |
+| Support arrears (through 10/2023) | $62,713 | **PAID** (wired 12/27/2024) |
+| **Gross total owed (H to W)** | **$726,713** | |
+| Less: Support arrears paid | -$62,713 | |
+| Less: E*TRADE advance of CP | -$540,000 | *Megan Thompson analyzing* |
+| **Estimated net remaining** | **~$124,000** | *Subject to forensic CPA final report* |
+
+> **Note:** The $540K E*TRADE advance and 2024 true-up are what Megan Thompson is finalizing. The actual net amount owed will change based on her analysis. The $530K deed buyout in workstream 1 may also factor in. Do not treat these numbers as final until Megan's report is complete.
+
+---
+
 ## Payment Log
 
 | Date | Payee | Amount | Notes |
 |------|-------|--------|-------|
+| 2024-12-27 | Cheryl Dailey | $62,713.00 | Support arrears (wire from E*TRADE to Chase acct 5639) |
 | ~Jan 2026 | Thompson Accounting | (retainer) | Todd confirmed payment Jan 9 |
 | 2026-03-05 | Thompson Accounting (Megan) | $2,441.25 | Forensic CPA payment |
 | 2026-03-05 | LPEP Law (Mitch Ehrlich) | $3,210.00 | Attorney fees / trust replenishment |
