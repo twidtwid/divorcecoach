@@ -10,21 +10,22 @@
 
 ## Urgent / Needs Attention
 
-1. **Megan Thompson needs more documents** (Mar 3) — analysis incomplete, needs additional docs
-2. **Quinn Youngs forwarded partial schedule from Megan** (Mar 4) — needs review
-3. **Deed transfer stalled** — Cheryl not responding on interspousal transfer deed for 125 Dana Ave
+1. **Respond to Megan's email** about whether withdrawals were community or separate property
+2. **Await lawyer response** on $664K number and $540K E*TRADE advance question
+3. **If confirmed:** execute trades tomorrow, wire early next week
 
 ---
 
 ## Open Workstreams
 
 ### 1. Interspousal Transfer Deed (125 Dana Ave)
-- **Status:** STALLED — Cheryl not cooperating
-- **Buyout amount:** $530,000
-- **Issue:** As of Feb 2026, Cheryl has not signed. Todd's team exploring options if she continues to refuse.
-- **Key emails:** "Interspousal Transfer Deed dispute - potential for stalemate" (Feb 10-11, 2026)
+- **Status:** PROPOSED PLAN — awaiting lawyer confirmation
+- **Buyout amount:** $664,000 (or less if $540K E*TRADE advance reduces it)
+- **Proposed structure (Mar 5):** $332K now, Cheryl signs deed, $332K within 60 days
+- **Also asked:** whether Cheryl would accept stock transfer (MI tax advantage)
+- **Issue:** As of Feb 2026, Cheryl has not signed. Quinn proposed 50/50 structure (Feb 27).
 - **Todd signed** his side and sent notarized docs via secure portal (Jan 18, 2026)
-- **Next action:** Respond to lawyer about escalation options
+- **Next action:** Await Quinn/Mitch confirmation on numbers and $540K question
 
 ### 2. Forensic CPA Work (Thompson Accounting)
 - **Status:** IN PROGRESS — Megan needs more documents
