@@ -16,11 +16,18 @@ On every new session, before anything else:
    ```bash
    find /Users/todd_1/repo/divorce/ -newer .last_session -type f 2>/dev/null | head -20
    ```
-5. **Present a brief status update:**
+5. **Flag new divorce emails in inbox** so Todd can spot them in Fastmail:
+   ```python
+   import sys; sys.path.insert(0, 'scripts')
+   from email_client import FastmailClient
+   client = FastmailClient()
+   flagged = client.flag_divorce_inbox(since_date='LAST_SESSION_DATE')
+   ```
+6. **Present a brief status update:**
    - What's new since last session (new emails, new documents)
    - What's most urgent
    - ONE recommended next action (small, concrete)
-6. **At session end**, update .last_session:
+7. **At session end**, update .last_session:
    ```bash
    date -u +"%Y-%m-%dT%H:%M:%S" > .last_session
    ```
@@ -66,6 +73,22 @@ from email_client import FastmailClient
 client = FastmailClient()
 body = client.get_email_body("EMAIL_ID_HERE")
 print(body)
+```
+
+### Flag divorce emails in inbox
+```python
+import sys; sys.path.insert(0, 'scripts')
+from email_client import FastmailClient
+client = FastmailClient()
+flagged = client.flag_divorce_inbox()  # flags all divorce emails in inbox
+# Or with date filter:
+flagged = client.flag_divorce_inbox(since_date='2026-01-01')
+```
+
+### Flag/unflag specific emails
+```python
+client.flag_emails(['EMAIL_ID_1', 'EMAIL_ID_2'])
+client.unflag_emails(['EMAIL_ID_1'])
 ```
 
 ### Divorce-related domains

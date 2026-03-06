@@ -2,7 +2,7 @@
 """
 Fastmail JMAP email client for DivorceCoach.
 
-Read-only client for fetching and filtering emails related to divorce proceedings.
+Client for fetching, filtering, and flagging emails related to divorce proceedings.
 Designed to be invoked by Claude during sessions.
 """
 
@@ -87,7 +87,7 @@ def filter_divorce_emails(emails: List[dict]) -> List[dict]:
 # ============ Fastmail Client ============
 
 class FastmailClient:
-    """JMAP client for Fastmail API (read-only)."""
+    """JMAP client for Fastmail API."""
 
     def __init__(self, token: str = None):
         self.token = token or FASTMAIL_TOKEN
@@ -257,6 +257,28 @@ class FastmailClient:
             'inbox': filter_divorce_emails(inbox),
             'sent': filter_divorce_emails(sent),
         }
+
+    def flag_emails(self, email_ids: List[str]):
+        """Flag/star emails in Fastmail."""
+        if not email_ids:
+            return
+        updates = {eid: {"keywords/$flagged": True} for eid in email_ids}
+        self._call([["Email/set", {"accountId": self.account_id, "update": updates}, "0"]])
+
+    def unflag_emails(self, email_ids: List[str]):
+        """Remove flag/star from emails."""
+        if not email_ids:
+            return
+        updates = {eid: {"keywords/$flagged": None} for eid in email_ids}
+        self._call([["Email/set", {"accountId": self.account_id, "update": updates}, "0"]])
+
+    def flag_divorce_inbox(self, since_date: str = None) -> List[dict]:
+        """Flag all divorce-related emails currently in inbox. Returns flagged emails."""
+        inbox = self.get_inbox_emails(since_date=since_date)
+        divorce_emails = filter_divorce_emails(inbox)
+        if divorce_emails:
+            self.flag_emails([e['id'] for e in divorce_emails])
+        return divorce_emails
 
 
 # ============ CLI Entry Point ============
