@@ -10,10 +10,9 @@
 
 ## Urgent / Needs Attention
 
-1. **New invoice from LPEP** (today, Mar 5) — Invoice 91419, not yet reviewed
-2. **Megan Thompson needs more documents** (Mar 3) — analysis incomplete, needs additional docs
-3. **Quinn Youngs forwarded partial schedule from Megan** (Mar 4) — needs review
-4. **Deed transfer stalled** — Cheryl not responding on interspousal transfer deed for 125 Dana Ave
+1. **Megan Thompson needs more documents** (Mar 3) — analysis incomplete, needs additional docs
+2. **Quinn Youngs forwarded partial schedule from Megan** (Mar 4) — needs review
+3. **Deed transfer stalled** — Cheryl not responding on interspousal transfer deed for 125 Dana Ave
 
 ---
 
@@ -31,6 +30,7 @@
 - **Status:** IN PROGRESS — Megan needs more documents
 - **Work:** Final analysis of Apple stock, ETRADE/Schwab accounts, $540K advance factoring, 2024 true-up
 - **Retainer:** Paid (Todd confirmed Jan 9, 2026). New retainer letter received Feb 26 from lindsy@thompsonaccounting.net
+- **Payment:** $2,441.25 paid Mar 5, 2026
 - **Latest:** Mar 3 — Megan says she needs additional documents to complete analysis
 - **Next action:** Review Mar 3 email from Megan, provide requested documents
 
@@ -42,11 +42,11 @@
 - **Next action:** Confirm current status with lawyer
 
 ### 4. Pay Lawyers (LPEP Law)
-- **Status:** NEEDS ATTENTION
-- **Latest invoice:** #91419 (Mar 5, 2026) — amount TBD (just received today)
+- **Status:** PAID UP (as of Mar 5)
+- **Latest invoice:** #91419 (Mar 5, 2026) — received today
+- **Payment:** $3,210.00 paid Mar 5, 2026
 - **Prior invoice:** #90030 (Dec 5, 2025) — $110 for services, trust balance $1,334
-- **Trust replenishment requested:** $3,666 (Dec 2025)
-- **Next action:** Review today's invoice, pay trust replenishment
+- **Next action:** Confirm payment posted, review invoice #91419 details
 
 ### 5. Smaller Account Divisions
 - **Status:** PENDING — waiting on Megan's final report
@@ -65,7 +65,8 @@
 | Date | Payee | Amount | Notes |
 |------|-------|--------|-------|
 | ~Jan 2026 | Thompson Accounting | (retainer) | Todd confirmed payment Jan 9 |
-| | | | |
+| 2026-03-05 | Thompson Accounting (Megan) | $2,441.25 | Forensic CPA payment |
+| 2026-03-05 | LPEP Law (Mitch Ehrlich) | $3,210.00 | Attorney fees / trust replenishment |
 
 ---
 
